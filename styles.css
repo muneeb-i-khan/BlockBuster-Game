@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap');
+body{
+    background: url('bg.jpg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    /* object-fit: cover; */
+    background-size: cover;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: white; */
+    z-index: 2;
+    /* border: 1px solid white; */
+
+}
+
+#score{
+    /* border: 1px solid red; */
+    width: 700px;
+    height: 40px;
+    font-size: x-large;
+    padding: 1rem;
+    background-color: white;
+    /* justify-content: center; */
+    margin: auto;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Electrolize', sans-serif;
+}
+.grid{
+    position: absolute;
+    width: 780px;
+    height: 300px;
+    border: solid white 1px;
+    margin-top: 30px;
+
+}
+
+.block{
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background-color: blue;
+    /* left: 50px;
+    bottom: 50px; */
+}
+
+.user{
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background-color: lime;
+    border-radius: 8px;
+    /* left: 50px;
+    bottom: 50px; */
+}
+
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: red;
+}
